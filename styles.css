@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	width:100vh;
+	flex-direction:rows;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	padding:10px;
+}
+.item{
+	display:flex;
+	align-item:center;
+	justify-content:center;
+	height:100px;
+	width:10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+item-1{
+	background-color:red;
+}
+item-2{
+	background-color:blue;
+}
+item-3,
+item-4,
+item-5,
+item-6,
+item-7{
+	background-color:green;
+}
